@@ -8,13 +8,15 @@ body {
 
 .container {
     max-width: 56rem;
+    margin: 0 auto;
+    width: 92%;
 }
 
 /* ========== TITLE & NAVIGATION ========== */
 
 header {
     text-align: center;
-    padding: 1em;
+    padding: 1em 0 1.5em 0;
     background-color: #f8f8f8;
 }
 
@@ -29,7 +31,6 @@ h1 {
 .header-content {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
 }
 
 .site-subtitle,
@@ -48,14 +49,48 @@ h1 {
 .nav-link {
     color: #707070;
     text-decoration: none;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 0;
 }
 
 .nav-list {
     list-style: none;
     padding: 0;
+    margin-bottom: 0;
 }
 
 .nav-item {
-    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 35rem) {
+    .header-content {
+        align-items: center;
+    }
+    
+    .nav-list {
+        display: flex;
+        margin: 0;
+    }
+
+    .nav-link {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-width: 56rem) {
+    header {
+        padding: 1.5em 0;
+    }
+
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .nav-item {
+        margin-top: 0;
+    }
 }
