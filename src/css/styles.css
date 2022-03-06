@@ -127,6 +127,11 @@ h1 {
 
 /* ========== MAIN ========== */
 
+article {
+    display: flex;
+    flex-direction: column;
+}
+
 .article-title {
     font-family: 'Lora', sans-serif;
     font-size: 1.5rem;
@@ -146,7 +151,20 @@ h1 {
     color: #707070;
 }
 
+.article-main {
+    order: 2;
+}
+
+.article-recent-aside {
+    order: 1;
+}
+
 /* ========== ASIDE ========== */
+
+.aside-recent-post {
+    display: flex;
+    flex-direction: column;
+}
 
 .aside-widget-title {
     text-transform: uppercase;
@@ -159,4 +177,8 @@ h1 {
     font-size: 1.125rem;
     font-weight: 400;
     color: #143774;
+}
+
+.aside-recent-post-img {
+    order: -1;
 }
