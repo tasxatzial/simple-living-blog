@@ -4,6 +4,8 @@ html {
 
 body {
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
 }
 
 .container {
@@ -109,4 +111,40 @@ h1 {
     .nav-item {
         margin-top: 0;
     }
+}
+
+/* ========== MAIN ========== */
+
+h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #143774;
+}
+
+.article-read-more {
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #1792d2;
+}
+
+.article-info {
+    font-size: 0.875rem;
+    color: #707070;
+}
+
+/* ========== ASIDE ========== */
+
+.aside-widget-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #143774;
+}
+
+h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #143774;
 }
