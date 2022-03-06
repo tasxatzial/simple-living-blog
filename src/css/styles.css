@@ -25,6 +25,11 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* ========== TITLE & NAVIGATION ========== */
 
 header {
@@ -132,6 +137,10 @@ article {
     flex-direction: column;
 }
 
+.article-top {
+    border-bottom: 1px solid #707070;
+}
+
 .article-title {
     font-family: 'Lora', sans-serif;
     font-size: 1.5rem;
@@ -164,6 +173,15 @@ article {
 .aside-recent-post {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid #707070;
+}
+
+.aside-recent-post:last-child {
+    border-bottom: none;
+}
+
+.aside-widget {
+    border: 17px solid gainsboro;
 }
 
 .aside-widget-title {
