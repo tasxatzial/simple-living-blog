@@ -14,6 +14,17 @@ body {
     width: 92%;
 }
 
+a {
+    color: #1792d2;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #143774;
+    text-decoration: underline;
+}
+
 /* ========== TITLE & NAVIGATION ========== */
 
 header {
@@ -69,6 +80,7 @@ h1 {
 .nav-link:focus,
 .nav-link:hover {
     color: #1792d2;
+    text-decoration: none;
 }
 
 .current-page {
