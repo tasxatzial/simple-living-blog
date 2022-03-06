@@ -2,27 +2,60 @@ html {
     font-size: 100%;
 }
 
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 56rem;
+}
+
+/* ========== TITLE & NAVIGATION ========== */
+
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #f8f8f8;
+}
+
 h1 {
     font-family: 'Lora', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     color: #143774;
+    margin: 0;
 }
 
-.site-subtitle {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    font-size: .75rem;
-    color: #1792d2;
+.header-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .site-subtitle,
 .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
+}
+
+.site-subtitle {
+    font-size: .75rem;
+    color: #1792d2;
+    margin-top: 0;
 }
 
 .nav-link {
     color: #707070;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 1em;
 }
