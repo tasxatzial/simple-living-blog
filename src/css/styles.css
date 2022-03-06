@@ -1,0 +1,28 @@
+html {
+    font-size: 100%;
+}
+
+h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #143774;
+}
+
+.site-subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: .75rem;
+    color: #1792d2;
+}
+
+.site-subtitle,
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #707070;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
