@@ -29,17 +29,31 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
-
 h1,
 h2,
 h3 {
     font-family: 'Lora', sans-serif;
     font-weight: 400;
     color: #143774;
+}
+
+/* ========== IMAGES ========== */
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.top-post-img,
+.recent-post-img,
+.personal-img {
+    height: 17rem;
+}
+
+.aside-personal-img,
+.aside-recent-post-img {
+    height: 10rem;
 }
 
 /* ========== TITLE & NAVIGATION ========== */
@@ -298,5 +312,9 @@ footer {
 
     .article-comments {
         margin: 0;
+    }
+
+    .recent-post-img {
+        max-height: 10rem;
     }
 }
