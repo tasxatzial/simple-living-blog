@@ -65,9 +65,19 @@ header {
     margin-bottom: 2em;
 }
 
-.site-title {
+.site-header-link {
     font-size: 2rem;
     margin: 0;
+    color: #143774;
+}
+
+.site-title {
+    margin: 0;
+}
+
+.site-header-link:focus,
+.site-header-link:hover {
+    text-decoration: none;
 }
 
 .header-content {
@@ -210,10 +220,6 @@ aside {
 
 .about-me-full-img {
     margin-bottom: 2em;
-}
-
-.about-me-section-title {
-    color: #1792d2;
 }
 
 .about-me-section {
