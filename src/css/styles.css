@@ -31,6 +31,14 @@ img {
     display: block;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    color: #143774;
+}
+
 /* ========== TITLE & NAVIGATION ========== */
 
 header {
@@ -40,11 +48,8 @@ header {
     margin-bottom: 2em;
 }
 
-h1 {
-    font-family: 'Lora', sans-serif;
+.site-title {
     font-size: 2rem;
-    font-weight: 400;
-    color: #143774;
     margin: 0;
 }
 
@@ -114,10 +119,7 @@ article {
 }
 
 .article-title {
-    font-family: 'Lora', sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
-    color: #143774;
     margin-top: 0;
 }
 
@@ -175,11 +177,24 @@ aside {
 
 .aside-recent-post-title {
     font-size: 1.125rem;
-    font-weight: 400;
 }
 
 .aside-recent-post-img {
     order: -1;
+}
+
+/* ========== ABOUT ME ========== */
+
+.about-me-full-img {
+    margin-bottom: 2em;
+}
+
+.about-me-section-title {
+    color: #1792d2;
+}
+
+.about-me-section {
+    margin-bottom: 2.5em;
 }
 
 /* ========== FOOTER ========== */
