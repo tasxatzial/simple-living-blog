@@ -228,7 +228,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 45rem) {
+@media screen and (min-width: 50rem) {
     header {
         padding: 1.5em 0;
         text-align: initial;
