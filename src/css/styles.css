@@ -171,6 +171,7 @@ article {
 .article-text {
     margin-bottom: .5em;
 }
+
 /* ========== ASIDE ========== */
 
 .aside-recent-post {
@@ -205,4 +206,17 @@ article {
 
 .aside-recent-post-img {
     order: -1;
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+    text-align: center;
+    background-color: #143774;
+    padding: 2em 0;
+    color: rgba(255, 255, 255, .7);
+}
+
+.footer-site-title {
+    margin: 0;
 }
