@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
+    line-height: 1.35;
 }
 
 .container {
@@ -91,7 +92,7 @@ h1 {
 }
 
 .current-page {
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid #a1a1a1;
 }
 
 .current-page:focus,
@@ -108,7 +109,7 @@ article {
 }
 
 .article-top {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #a1a1a1;
     padding-bottom: 2em;
 }
 
@@ -145,10 +146,14 @@ article {
 
 /* ========== ASIDE ========== */
 
+aside {
+    color: #143774;
+}
+
 .aside-recent-post {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #a1a1a1;
     margin-top: 1.5em;
 }
 
@@ -158,7 +163,7 @@ article {
 
 .aside-widget {
     border: 17px solid gainsboro;
-    padding: 1em;
+    padding: 0 1em;
     margin-bottom: 3em;
 }
 
@@ -166,13 +171,11 @@ article {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.125rem;
-    color: #143774;
 }
 
 .aside-recent-post-title {
     font-size: 1.125rem;
     font-weight: 400;
-    color: #143774;
 }
 
 .aside-recent-post-img {
@@ -189,11 +192,7 @@ footer {
 }
 
 .footer-site-title {
-    margin: 0 0 .25em 0;
-}
-
-small {
-    display: block;
+    margin: 0;
 }
 
 /* ========== HIGH RES ========== */
