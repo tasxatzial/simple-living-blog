@@ -135,10 +135,8 @@ h1 {
 article {
     display: flex;
     flex-direction: column;
-}
-
-.article-top {
-    border-bottom: 1px solid #707070;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .article-title {
@@ -146,6 +144,7 @@ article {
     font-size: 1.5rem;
     font-weight: 400;
     color: #143774;
+    margin-top: 0;
 }
 
 .article-read-more {
@@ -158,6 +157,7 @@ article {
 .article-info {
     font-size: 0.875rem;
     color: #707070;
+    margin-bottom: .5em;
 }
 
 .article-main {
@@ -168,12 +168,16 @@ article {
     order: 1;
 }
 
+.article-text {
+    margin-bottom: .5em;
+}
 /* ========== ASIDE ========== */
 
 .aside-recent-post {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #707070;
+    margin-top: 1.5em;
 }
 
 .aside-recent-post:last-child {
@@ -182,6 +186,8 @@ article {
 
 .aside-widget {
     border: 17px solid gainsboro;
+    padding: 1em;
+    margin-bottom: 3em;
 }
 
 .aside-widget-title {
