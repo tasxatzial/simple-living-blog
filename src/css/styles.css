@@ -48,12 +48,12 @@ img {
 .top-post-img,
 .recent-post-img,
 .personal-img {
-    height: 17rem;
+    height: 12rem;
 }
 
 .aside-personal-img,
 .aside-recent-post-img {
-    height: 10rem;
+    height: 8rem;
 }
 
 /* ========== TITLE & NAVIGATION ========== */
@@ -256,6 +256,17 @@ footer {
         margin-left: 1em;
         margin-right: 1em;
     }
+
+    .top-post-img,
+    .recent-post-img,
+    .personal-img {
+        height: 18rem;
+    }
+
+    .aside-personal-img,
+    .aside-recent-post-img {
+        height: 10rem;
+    }
 }
 
 @media screen and (min-width: 50rem) {
@@ -321,6 +332,6 @@ footer {
     }
 
     .recent-post-img {
-        max-height: 10rem;
+        max-height: 11rem;
     }
 }
