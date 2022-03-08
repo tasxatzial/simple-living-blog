@@ -27,7 +27,11 @@
     </header>
     <div class="container">
         <main>
-            <img src="img/about-me.jpg" alt="" class="personal-img">
+            <img src="img/about-me_480.jpg" alt="" class="personal-img"
+                 srcset="img/about-me_800.jpg 800w,
+                         img/about-me_480.jpg 480w"
+                 sizes="(min-width: 50rem) 60vw,
+                        92vw">
             <h2>My name is John and living the simple life saved my life</h2>
             <section class="about-me-section">
                 <p><strong>I used to be a pack rat</strong>. I had so many things that I thought that I loved, but the truth was I couldn't even appreciate any of it because there was too much.</p>
@@ -49,19 +53,55 @@
                 <h2 class="aside-widget-title">recent posts</h2>
                 <div class="aside-recent-post">
                     <h3 class="aside-recent-post-title">Finding simplicity in life</h3>
-                    <img src="img/life.jpg" alt="" class="aside-recent-post-img">
+                    <picture>
+                        <source media="(min-width: 50rem)"
+                                srcset="img/life_282_c.jpg 282w,
+                                        img/life_470_c.jpg 470w"
+                                sizes="20vw">
+                        <img src="img/life_480.jpg" alt="" class="aside-recent-post-img"
+                             srcset="img/life_800.jpg 800w,
+                                     img/life_480.jpg 480w"
+                             sizes="85vw">
+                    </picture>
                 </div>
                 <div class="aside-recent-post">
                     <h3 class="aside-recent-post-title">Keep cooking simple</h3>
-                    <img src="img/food.jpg" alt="" class="aside-recent-post-img">
+                    <picture>
+                        <source media="(min-width: 50rem)"
+                                srcset="img/food_282_c.jpg 282w,
+                                        img/food_470_c.jpg 470w"
+                                sizes="20vw">
+                        <img src="img/food_480.jpg" alt="" class="aside-recent-post-img"
+                             srcset="img/food_800.jpg 800w,
+                                     img/food_480.jpg 480w"
+                             sizes="85vw">
+                    </picture>
                 </div>
                 <div class="aside-recent-post">
                     <h3 class="aside-recent-post-title">Simplicity and work</h3>
-                    <img src="img/work.jpg" alt="" class="aside-recent-post-img">
+                    <picture>
+                        <source media="(min-width: 50rem)"
+                                srcset="img/work_282_c.jpg 282w,
+                                        img/work_470_c.jpg 470w"
+                                sizes="20vw">
+                        <img src="img/work_480.jpg" alt="" class="aside-recent-post-img"
+                             srcset="img/work_800.jpg 800w,
+                                     img/work_480.jpg 480w"
+                             sizes="85vw">
+                    </picture>
                 </div>
                 <div class="aside-recent-post">
                     <h3 class="aside-recent-post-title">Simple decorations</h3>
-                    <img src="img/deco.jpg" alt="" class="aside-recent-post-img">
+                    <picture>
+                        <source media="(min-width: 50rem)"
+                                srcset="img/deco_282_c.jpg 282w,
+                                        img/deco_470_c.jpg 470w"
+                                sizes="20vw">
+                        <img src="img/deco_480.jpg" alt="" class="aside-recent-post-img"
+                             srcset="img/deco_800.jpg 800w,
+                                     img/deco_480.jpg 480w"
+                             sizes="85vw">
+                    </picture>
                 </div>
             </div>
         </aside>
