@@ -1,6 +1,6 @@
 # Simple living blog
 
-A simple blog about minimalism in life.
+A simple blog about minimalism in life. See it live [here](https://tasxatzial.github.io/simple-living-blog).
 
 ## Implementation
 
