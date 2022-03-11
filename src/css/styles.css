@@ -123,6 +123,10 @@ header {
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
+
 .current-page {
     border-bottom: 2px solid #a1a1a1;
 }
