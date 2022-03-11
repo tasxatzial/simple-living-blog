@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.35;
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ header {
 }
 
 .site-header-link {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0;
     color: #143774;
 }
@@ -93,7 +93,7 @@ header {
 }
 
 .site-subtitle {
-    font-size: .75rem;
+    font-size: .7rem;
     color: #1792d2;
     margin-top: 0;
 }
@@ -114,7 +114,7 @@ header {
     margin-top: 1em;
     margin-bottom: 0;
     padding-bottom: .2em;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .nav-link:focus,
@@ -146,20 +146,20 @@ article {
 }
 
 .article-title {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
     margin-top: 0;
 }
 
 .article-read-more {
     font-weight: 700;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     color: #1792d2;
 }
 
 .article-info,
 .article-top-info {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     color: #707070;
     margin-bottom: .5em;
 }
@@ -205,12 +205,12 @@ aside {
 .aside-widget-title {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 .aside-recent-post-title {
-    font-size: 1.125rem;
     order: 1;
+    font-size: 1rem;
 }
 
 /* ========== ABOUT ME ========== */
@@ -240,6 +240,10 @@ footer {
 /* ========== HIGH RES ========== */
 
 @media screen and (min-width: 30rem) {
+    html {
+        font-size: 110%;
+    }
+
     .header-content {
         align-items: center;
     }
