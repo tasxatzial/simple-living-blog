@@ -6,7 +6,7 @@ A simple blog about minimalism in life. See it live [here](https://tasxatzial.gi
 
 This project demonstrates the following concepts/techniques:
 
-* Responsive website.
+* Responsive website (CSS flexbox, responsive image markup).
 * Mobile first design.
 
 ## Run locally
