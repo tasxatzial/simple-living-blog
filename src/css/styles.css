@@ -80,7 +80,7 @@ header {
     text-decoration: none;
 }
 
-.header-content {
+.container-header {
     display: flex;
     flex-direction: column;
 }
@@ -248,7 +248,7 @@ footer {
         font-size: 110%;
     }
 
-    .header-content {
+    .container-header {
         align-items: center;
     }
 
@@ -280,7 +280,7 @@ footer {
         text-align: initial;
     }
 
-    .header-content {
+    .container-header {
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
