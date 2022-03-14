@@ -155,38 +155,32 @@ article {
     margin-bottom: 2.5em;
 }
 
-.article-top {
+.post-top {
     border-bottom: 1px solid #a1a1a1;
     padding-bottom: 2em;
 }
 
-.article-title {
+.post-title {
     font-size: 1.33rem;
     margin-bottom: 0;
 }
 
-.article-read-more {
+.post-read-more {
     font-weight: 700;
     font-size: 0.8rem;
     text-transform: uppercase;
     color: #1792d2;
 }
 
-.article-info {
+.post-info {
     font-size: 0.8rem;
     color: #707070;
     margin-top: 0;
     margin-bottom: .5em;
 }
 
-.article-top-main,
-.article-recent-main {
+.post-main {
     order: 2;
-}
-
-.article-top-secondary,
-.article-recent-secondary {
-    order: 1;
 }
 
 /* ========== ASIDE ========== */
@@ -312,20 +306,20 @@ footer {
 }
 
 @media screen and (min-width: 60rem) {
-    .article-recent {
+    .post-recent {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .article-recent-main {
+    .post-recent-main {
         width: 69%;
     }
 
-    .article-recent-secondary {
+    .post-recent-secondary {
         width: 28%;
     }
 
-    .article-info {
+    .post-info {
         flex-direction: column;
         justify-content: flex-start;
     }
