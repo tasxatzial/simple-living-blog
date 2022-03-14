@@ -152,12 +152,12 @@ header {
 article {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
 }
 
-.post-top {
+.post {
     border-bottom: 1px solid #a1a1a1;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .post-title {
@@ -307,6 +307,8 @@ footer {
 
 @media screen and (min-width: 60rem) {
     .post-recent {
+
+        border-bottom: 0;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -317,6 +319,10 @@ footer {
 
     .post-recent-secondary {
         width: 28%;
+    }
+    
+    .post-recent-title {
+        margin-top: 0;
     }
 
     .post-info {
