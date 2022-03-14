@@ -123,10 +123,12 @@ header {
     text-decoration: none;
 }
 
-.hidden {
-    display: none;
+.nav-link:active {
+    color: white;
+    background-color: #707070;
 }
 
+/* current-page overwrites nav-link */
 .current-page {
     border-bottom: 2px solid #a1a1a1;
 }
@@ -134,6 +136,15 @@ header {
 .current-page:focus,
 .current-page:hover {
     color: #707070;
+}
+
+.current-page:active {
+    color: #707070;
+    background-color: transparent;
+}
+
+.hidden {
+    display: none;
 }
 
 /* ========== MAIN ========== */
