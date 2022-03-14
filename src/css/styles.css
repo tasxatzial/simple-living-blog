@@ -162,7 +162,7 @@ article {
 
 .article-title {
     font-size: 1.33rem;
-    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .article-read-more {
@@ -172,16 +172,11 @@ article {
     color: #1792d2;
 }
 
-.article-info,
-.article-top-info {
+.article-info {
     font-size: 0.8rem;
     color: #707070;
+    margin-top: 0;
     margin-bottom: .5em;
-}
-
-.article-info {
-    display: flex;
-    flex-wrap: nowrap;
 }
 
 .article-top-main,
@@ -224,8 +219,8 @@ aside {
 }
 
 .aside-recent-post-title {
-    order: 1;
     font-size: 1rem;
+    order: 2;
 }
 
 /* ========== ABOUT ME ========== */
@@ -330,21 +325,9 @@ footer {
         width: 28%;
     }
 
-    .article-info-separator {
-        display: none;
-    }
-
     .article-info {
         flex-direction: column;
         justify-content: flex-start;
-    }
-
-    .article-date {
-        margin-bottom: 0;
-    }
-
-    .article-comments {
-        margin: 0;
     }
 
     .recent-post-img {
