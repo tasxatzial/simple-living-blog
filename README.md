@@ -4,7 +4,11 @@ A simple blog about minimalism in life. See it live [here](https://tasxatzial.gi
 
 ## Implementation
 
-This project demonstrates the following concepts/techniques:
+This project was built with:
+
+* Plain HTML, CSS.
+
+### Frontend
 
 * Responsive website (CSS flexbox, responsive image markup).
 * Mobile first design.
