@@ -1,43 +1,92 @@
+:root {
+    --main-color: #1792d2;
+    --secondary-color: #143774;
+}
+
 html {
     font-size: 100%;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.35;
+    min-height: 100vh;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
-    line-height: 1.35;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
-.container {
-    max-width: 65rem;
-    margin: 0 auto;
-    width: 92%;
+/*======================== MODIFYING ========================*/
+
+.hidden {
+    display: none;
 }
+
+/*======================== LINK ========================*/
 
 a {
-    color: #1792d2;
+    color: var(--main-color);
     text-decoration: none;
 }
 
 a:focus,
 a:hover {
-    color: #143774;
+    color: var(--secondary-color);
     text-decoration: underline;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Lora', sans-serif;
-    font-weight: 400;
-    color: #143774;
+/* Site logo */
+.site-header-link {
+    margin: 0;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
 }
 
-/* ========== IMAGES ========== */
+.site-header-link:focus,
+.site-header-link:hover {
+    text-decoration: none;
+}
+
+/* Navigation */
+.nav-link {
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-bottom: .2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #707070;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.nav-link:active {
+    color: white;
+    background-color: #707070;
+}
+
+.current-page {
+    border-bottom: 2px solid #a1a1a1;
+}
+
+.current-page:focus,
+.current-page:hover {
+    color: #707070;
+}
+
+.current-page:active {
+    color: #707070;
+    background-color: transparent;
+}
+
+/*======================== IMAGE ========================*/
 
 img {
     width: 100%;
@@ -56,110 +105,35 @@ img {
     height: 8rem;
 }
 
-/* ========== TITLE & NAVIGATION ========== */
-
-header {
-    text-align: center;
-    padding: 1em 0 1.5em 0;
-    background-color: #f8f8f8;
+.about-me-full-img {
     margin-bottom: 2em;
 }
 
-.site-header-link {
-    font-size: 1.8rem;
-    margin: 0;
+/*======================== TEXT ========================*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
     color: #143774;
 }
 
+/* Header */
 .site-title {
     margin: 0;
 }
 
-.site-header-link:focus,
-.site-header-link:hover {
-    text-decoration: none;
-}
-
-.container-header {
-    display: flex;
-    flex-direction: column;
-}
-
-.site-subtitle,
-.nav-link {
+.site-subtitle {
+    margin-top: 0;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
+    font-size: .7rem;
+    color: #1792d2;
     text-transform: uppercase;
 }
 
-.site-subtitle {
-    font-size: .7rem;
-    color: #1792d2;
-    margin-top: 0;
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 0;
-}
-
-.nav-item {
-    margin-top: 1em;
-}
-
-.nav-link {
-    color: #707070;
-    text-decoration: none;
-    margin-top: 1em;
-    margin-bottom: 0;
-    padding-bottom: .2em;
-    font-size: 0.9rem;
-}
-
-.nav-link:focus,
-.nav-link:hover {
-    color: #1792d2;
-    text-decoration: none;
-}
-
-.nav-link:active {
-    color: white;
-    background-color: #707070;
-}
-
-/* current-page overwrites nav-link */
-.current-page {
-    border-bottom: 2px solid #a1a1a1;
-}
-
-.current-page:focus,
-.current-page:hover {
-    color: #707070;
-}
-
-.current-page:active {
-    color: #707070;
-    background-color: transparent;
-}
-
-.hidden {
-    display: none;
-}
-
-/* ========== MAIN ========== */
-
-article {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2em;
-}
-
-.post {
-    border-bottom: 1px solid #a1a1a1;
-    padding-bottom: 1em;
-}
-
+/* Main page */
 .post-title {
     font-size: 1.33rem;
     margin-bottom: 0;
@@ -173,18 +147,77 @@ article {
 }
 
 .post-info {
-    font-size: 0.8rem;
-    color: #707070;
     margin-top: 0;
     margin-bottom: .5em;
+    font-size: 0.8rem;
+    color: #707070;
+}
+
+/* Aside */
+.aside-widget-title {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.aside-recent-post-title {
+    font-size: 1rem;
+    order: 2;
+}
+
+/* Footer */
+.footer-title {
+    margin: 0;
+}
+
+/*======================== CONTAINER ========================*/
+
+.container {
+    max-width: 65rem;
+    margin: 0 auto;
+    width: 92%;
+}
+
+/* Header */
+.container-header {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1em 0 1.5em 0;
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.nav-list {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item {
+    margin-top: 1em;
+}
+
+/* Main page */
+article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.post {
+    border-bottom: 1px solid #a1a1a1;
+    padding-bottom: 1em;
 }
 
 .post-main {
     order: 2;
 }
 
-/* ========== ASIDE ========== */
-
+/* Aside */
 aside {
     color: #143774;
 }
@@ -192,8 +225,8 @@ aside {
 .aside-recent-post {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #a1a1a1;
     margin-top: 1.5em;
+    border-bottom: 1px solid #a1a1a1;
 }
 
 .aside-recent-post:last-child {
@@ -206,55 +239,25 @@ aside {
     margin-bottom: 3em;
 }
 
-.aside-widget-title {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-.aside-recent-post-title {
-    font-size: 1rem;
-    order: 2;
-}
-
-/* ========== ABOUT ME ========== */
-
-.about-me-full-img {
-    margin-bottom: 2em;
-}
-
+/* About me page */
 .about-me-section {
     margin-bottom: 2.5em;
 }
 
-/* ========== FOOTER ========== */
-
+/* Footer */
 footer {
+    padding: 2em 0;
+    margin-top: auto;
     text-align: center;
     background-color: #143774;
-    padding: 2em 0;
     color: rgba(255, 255, 255, .7);
-    margin-top: auto;
 }
 
-.footer-site-title {
-    margin: 0;
-}
-
-/* ========== HIGH RES ========== */
+/************************************ HIGH RES ************************************/
 
 @media screen and (min-width: 30rem) {
     html {
         font-size: 110%;
-    }
-
-    .container-header {
-        align-items: center;
-    }
-
-    .nav-list {
-        display: flex;
-        margin: 0;
     }
 
     .nav-link {
@@ -272,12 +275,21 @@ footer {
     .aside-recent-post-img {
         height: 10rem;
     }
+
+    .container-header {
+        align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 50rem) {
-    header {
-        padding: 1.5em 0;
-        text-align: initial;
+    .container {
+        display: flex;
+        justify-content: space-between;
     }
 
     .container-header {
@@ -286,13 +298,13 @@ footer {
         align-items: baseline;
     }
 
-    .nav-item {
-        margin-top: 0;
+    header {
+        padding: 1.5em 0;
+        text-align: initial;
     }
 
-    .container {
-        display: flex;
-        justify-content: space-between;
+    .nav-item {
+        margin-top: 0;
     }
 
     main {
@@ -306,21 +318,10 @@ footer {
 }
 
 @media screen and (min-width: 60rem) {
-    .post-recent {
-
-        border-bottom: 0;
-        flex-direction: row;
-        justify-content: space-between;
+    .recent-post-img {
+        max-height: 11rem;
     }
 
-    .post-recent-main {
-        width: 69%;
-    }
-
-    .post-recent-secondary {
-        width: 28%;
-    }
-    
     .post-recent-title {
         margin-top: 0;
     }
@@ -330,7 +331,17 @@ footer {
         justify-content: flex-start;
     }
 
-    .recent-post-img {
-        max-height: 11rem;
+    .post-recent {
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 0;
+    }
+
+    .post-recent-main {
+        width: 69%;
+    }
+
+    .post-recent-secondary {
+        width: 28%;
     }
 }
