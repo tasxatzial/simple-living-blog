@@ -87,12 +87,12 @@ img {
 .top-post-img,
 .recent-post-img,
 .personal-img {
-    height: 12rem;
+    height: 196px;
 }
 
 .aside-personal-img,
 .aside-recent-post-img {
-    height: 8rem;
+    height: 128px;
 }
 
 .about-me-full-img {
@@ -259,12 +259,12 @@ footer {
     .top-post-img,
     .recent-post-img,
     .personal-img {
-        height: 18rem;
+        height: 316px;
     }
 
     .aside-personal-img,
     .aside-recent-post-img {
-        height: 10rem;
+        height: 176px;
     }
 
     .container-header {
@@ -310,7 +310,7 @@ footer {
 
 @media screen and (min-width: 60rem) {
     .recent-post-img {
-        max-height: 11rem;
+        max-height: 197px;
     }
 
     .post-recent-title {
