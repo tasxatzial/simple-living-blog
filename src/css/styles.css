@@ -283,6 +283,10 @@ footer {
 }
 
 @media screen and (min-width: 50rem) {
+    .post:last-child {
+        border: 0;
+    }
+
     .container {
         display: flex;
         justify-content: space-between;
