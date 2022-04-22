@@ -45,20 +45,20 @@ a {
     text-transform: uppercase;
 }
 
-.post-link:link {
-    color: #1792d2;
-}
-
-.post-link:hover {
-    color: #143774;
+.post-link {
     text-decoration: underline;
 }
 
+.post-link:link,
 .nav-link:hover {
     color: #1792d2;
 }
 
-/* overwrite above rule */
+.post-link:focus,
+.post-link:hover {
+    color: #143774;
+}
+
 .nav-link.current-page:hover {
     color: #707070;
 }
