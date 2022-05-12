@@ -4,9 +4,11 @@ A simple blog about minimalism in life. See it live [here](https://tasxatzial.gi
 
 ## Implementation
 
-This project was built with:
+This project uses:
 
 * Plain HTML, CSS.
+* [:focus-visible polyfill](https://github.com/WICG/focus-visible).
+* [Picturefill polyfill](https://scottjehl.github.io/picturefill/).
 
 ### Frontend
 
