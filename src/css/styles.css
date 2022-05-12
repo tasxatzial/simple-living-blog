@@ -8,6 +8,16 @@ body {
     font-size: 1rem;
 }
 
+/*======================== JS ========================*/
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible {
+    outline: 2px solid #1792d2;
+}
+
 /*======================== LINK ========================*/
 
 a {
@@ -29,6 +39,14 @@ a {
     text-transform: uppercase;
 }
 
+.nav-link.current-page:hover {
+    color: #707070;
+}
+
+.nav-link:not(.current-page):hover {
+    color: #1792d2;
+}
+
 .current-page {
     border-bottom: 2px solid #a1a1a1;
 }
@@ -43,18 +61,20 @@ a {
     text-decoration: underline;
 }
 
-.post-link:link,
-.nav-link:hover {
+.post-link.focus-visible {
+    text-decoration: none;
+}
+
+.post-link:link {
     color: #1792d2;
 }
 
-.post-link:focus,
 .post-link:hover {
-    color: #143774;
+    text-decoration: none;
 }
 
-.nav-link.current-page:hover {
-    color: #707070;
+.post-link:active {
+    color: red;
 }
 
 /*======================== IMAGE ========================*/
