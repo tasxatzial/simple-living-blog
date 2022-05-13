@@ -162,8 +162,15 @@ h3 {
 
 /*======================== CONTAINER ========================*/
 
+.container,
+header,
+footer {
+    min-width: 15em;
+}
+
 .container {
     max-width: 65em;
+    padding: 0 1em;
     margin: 0 auto;
     width: 92%;
 }
@@ -175,7 +182,7 @@ h3 {
 }
 
 header {
-    padding: 1em 0 1.5em 0;
+    padding: 1em 1em 1.5em 0;
     margin-bottom: 2em;
     text-align: center;
     background-color: #f8f8f8;
@@ -236,7 +243,7 @@ aside {
 
 /* Footer */
 footer {
-    padding: 2em 0;
+    padding: 2em 1em;
     margin-top: auto;
     text-align: center;
     background-color: #143774;
