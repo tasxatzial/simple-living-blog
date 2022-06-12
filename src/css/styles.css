@@ -5,7 +5,6 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
 }
 
 /*======================== JS ========================*/
@@ -93,12 +92,12 @@ img {
 .top-post-img-container,
 .recent-post-img-container,
 .personal-img-container {
-    height: 12.25em;
+    height: 12.25rem;
 }
 
 .aside-personal-img-container,
 .aside-recent-post-img-container {
-    height: 8em;
+    height: 8rem;
 }
 
 .about-me-full-img {
@@ -168,7 +167,8 @@ footer {
     min-width: 15em;
 }
 
-.container {
+.container,
+.container-footer {
     max-width: 65em;
     padding: 0 1em;
     margin: 0 auto;
@@ -243,7 +243,7 @@ aside {
 
 /* Footer */
 footer {
-    padding: 2em 1em;
+    padding: 2em 0;
     margin-top: auto;
     text-align: center;
     background-color: #143774;
@@ -261,12 +261,12 @@ footer {
     .top-post-img-container,
     .recent-post-img-container,
     .personal-img-container {
-        height: 19.75em;
+        height: 19.75rem;
     }
 
     .aside-personal-img-container,
     .aside-recent-post-img-container {
-        height: 11em;
+        height: 11rem;
     }
 
     .container-header {
@@ -317,7 +317,7 @@ footer {
 @media screen and (min-width: 60em) {
     .recent-post-img-container {
         width: 28%;
-        height: 12.3em;
+        height: 12.3rem;
     }
 
     .post-recent-title {
