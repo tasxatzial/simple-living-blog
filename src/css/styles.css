@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -161,18 +165,20 @@ h3 {
 
 /*======================== CONTAINER ========================*/
 
-.container,
-header,
-footer {
+body > * {
     min-width: 15em;
+}
+
+.container-main {
+    padding-top: 2em;
 }
 
 .container,
 .container-footer {
     max-width: 65em;
-    padding: 0 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     margin: 0 auto;
-    width: 92%;
 }
 
 /* Header */
@@ -182,8 +188,8 @@ footer {
 }
 
 header {
-    padding: 1em 1em 1.5em 0;
-    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
     text-align: center;
     background-color: #f8f8f8;
 }
