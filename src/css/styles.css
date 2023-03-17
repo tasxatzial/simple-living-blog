@@ -167,7 +167,7 @@ h3 {
 /*======================== CONTAINER ========================*/
 
 body > * {
-    min-width: 15em;
+    min-width: 15rem;
 }
 
 .container-main {
@@ -176,7 +176,7 @@ body > * {
 
 .container,
 .container-footer {
-    max-width: 65em;
+    max-width: 65rem;
     padding-left: 1em;
     padding-right: 1em;
     margin: 0 auto;
