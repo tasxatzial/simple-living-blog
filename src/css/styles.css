@@ -18,7 +18,11 @@ body {
 }
 
 .js-focus-visible .focus-visible {
-    outline: 2px solid #1792d2;
+    outline: 3px dashed #1792d2;
+}
+
+.js-focus-visible .post-link.focus-visible {
+    text-decoration: none;
 }
 
 @supports selector(:focus-visible) {
@@ -27,7 +31,11 @@ body {
     }
 
     :focus-visible {
-        outline: 2px solid #1792d2;
+        outline: 3px dashed #1792d2;
+    }
+
+    .post-link:focus-visible {
+        text-decoration: none;
     }
 }
 
@@ -74,10 +82,6 @@ a {
 
 .post-link {
     text-decoration: underline;
-}
-
-.post-link.focus-visible {
-    text-decoration: none;
 }
 
 .post-link:link {
