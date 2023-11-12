@@ -6,14 +6,17 @@ This project is part of a course on [Scrimba](https://scrimba.com). [Design spec
 
 ## Implementation
 
-* Responsive (flexbox, picture element).
+* Responsive + responsive image markup.
+* Accessible.
 * Mobile first design.
 
-While my implementation follows the course content loosely, it also incorporates improvements that address most of the underlying issues.
+While my implementation follows the course content loosely, it isn't an exact match of the design or the implementation shown in the course. I've made some intentional changes, with the aim of improving upon the provided design.
 
 ## Dependencies
 
-External:
+The project is written in HTML, CSS, JavaScript.
+
+The following dependencies require an online connection:
 
 * [:focus-visible](https://github.com/WICG/focus-visible) polyfill.
 * [Picturefill](https://scottjehl.github.io/picturefill/) polyfill.
