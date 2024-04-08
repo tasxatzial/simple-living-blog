@@ -4,8 +4,6 @@ A simple website about minimalism in life.
 
 This project is part of the [Learn Responsive Web Design](https://scrimba.com/learn/responsive) course on [Scrimba](https://scrimba.com).
 
-* [Design specs](https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/)
-
 ## Implementation
 
 * Responsive + responsive image markup.
