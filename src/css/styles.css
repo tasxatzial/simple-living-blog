@@ -191,7 +191,7 @@ body > * {
 
 .container,
 .container-footer {
-    max-width: 65rem;
+    max-width: 35rem;
     padding-left: 1em;
     padding-right: 1em;
     margin: 0 auto;
@@ -296,6 +296,11 @@ footer {
 @media screen and (min-width: 50em) {
     .post:last-child {
         border: 0;
+    }
+
+    .container,
+    .container-footer {
+        max-width: 65rem;
     }
 
     .container {
